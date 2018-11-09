@@ -29,7 +29,6 @@ public class Main {
 		System.out.print("--> Masukkan pilihan : ");
 		
 		pilihan = scan.nextInt();
-		scan.close();
 		return pilihan;
 	}
 	
@@ -51,7 +50,7 @@ public class Main {
 			karyawan.deleteData();
 			break;
 		case 5:
-			karyawan.showData();
+			keluarga.showData();
 			break;
 		case 6:
 			keluarga.insertData();
